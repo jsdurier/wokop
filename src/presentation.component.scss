@@ -1,0 +1,32 @@
+:host > div {
+	background-color: #111;
+	position: relative;
+
+	> .background {
+		position: absolute;
+		// z-index: -1;
+		// top: 0;
+		// bottom: 0;
+		// right: 0;
+		// left: 0;
+	
+		> img {
+			width: 600px;
+		}
+	}
+
+	> .content {
+		// position: absolute;
+		// top: 0;
+		// bottom: 0;
+		// right: 0;
+		// left: 0;
+		padding: 20px 400px;
+	}
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

@@ -1,0 +1,10 @@
+:host > div {
+	text-transform: uppercase;
+	color: white;
+	transition: all ease 0.25s;
+	cursor: pointer;
+
+	&:hover {
+		color: #339; // #77a;
+	}
+}

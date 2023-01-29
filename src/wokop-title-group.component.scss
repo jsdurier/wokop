@@ -1,0 +1,27 @@
+:host > div {
+	// background-color: #567;
+	height: 300px;
+	width: 500px;
+	margin: 100px 0px;
+	color: white;
+}
+
+.title {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.description {
+	font-size: 18px;
+	line-height: 32px;
+	font-weight: 500;
+	margin-bottom: 40px;
+}
+
+.buttons {
+	display: flex;
+
+	> * {
+		margin-right: 20px;
+	}
+}

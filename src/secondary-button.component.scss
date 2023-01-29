@@ -1,0 +1,14 @@
+:host > div {
+	border-radius: 40px;
+	padding: 15px 40px;
+	color: white;
+	background-color: transparent;
+	border: solid 2px white;
+	transition: all ease .25s;
+	cursor: pointer;
+
+	&:hover {
+		border-color: #339;
+		color: #339;
+	}
+}
